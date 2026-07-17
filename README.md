@@ -5,7 +5,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-david--cedric--tan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Cedric_Tan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidcedricctan/)
 [![Email](https://img.shields.io/badge/Email-davidcedricctan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:davidcedricctan@gmail.com)
-![AWS Certified](https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Location](https://img.shields.io/badge/Location-Sydney%2C_Australia-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
 
 </div>
