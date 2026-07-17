@@ -1,10 +1,9 @@
-<div align="center">
-
 # Hi, I'm David Cedric Tan
 
 **Software Development & Finance Student | Cloud, Backend and Data Projects**
 
 [![GitHub](https://img.shields.io/badge/GitHub-david--cedric--tan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Cedric_Tan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidcedricctan/)
 [![Email](https://img.shields.io/badge/Email-davidcedricctan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:davidcedricctan@gmail.com)
 ![AWS Certified](https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Location](https://img.shields.io/badge/Location-Sydney%2C_Australia-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
@@ -23,7 +22,69 @@ I have experience across **software engineering, data transformation, cloud tech
 - Interested in cloud engineering, backend development, technology consulting and financial technology
 - Expected graduation: **November 2027**
 
+## Certifications
+
+[![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)](https://www.credly.com/badges/4d27acfc-2dc6-4ee1-b384-922ad9685559)
+
+- [AWS Certified Cloud Practitioner — July 2026](https://www.credly.com/badges/4d27acfc-2dc6-4ee1-b384-922ad9685559)
+- [AWS Academy Graduate — Cloud Architecting Training Badge](https://www.credly.com/badges/f3b51ba5-2d92-4d76-9dbb-ee0ac7ffa3e9)
+- [AWS Academy Graduate — Cloud Foundations Training Badge](https://www.credly.com/badges/0336de2d-f5d5-4df0-b08e-25ad6d8a9859)
+## Technical Skills
+
+### Languages and Frameworks
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+
+### Cloud and Databases
+
+#### AWS Services
+
+![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![Amazon VPC](https://img.shields.io/badge/Amazon_VPC-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS_IAM-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Security Groups](https://img.shields.io/badge/Security_Groups-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Elastic Load Balancing](https://img.shields.io/badge/Elastic_Load_Balancing-8C4FFF?style=flat-square&logo=awselasticloadbalancing&logoColor=white)
+![Amazon SNS](https://img.shields.io/badge/Amazon_SNS-FF4F8B?style=flat-square&logo=amazonsimpleemailservice&logoColor=white)
+![Amazon SQS](https://img.shields.io/badge/Amazon_SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
+![Amazon CloudWatch](https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![NAT Gateway](https://img.shields.io/badge/NAT_Gateway-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Internet Gateway](https://img.shields.io/badge/Internet_Gateway-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+#### Databases
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+### Tools and Delivery
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Agile](https://img.shields.io/badge/Delivery-Agile_%26_Scrum-2496ED?style=flat-square)
+
+## Current Interests
+
+- Cloud and platform engineering
+- Backend software development
+- Secure web applications
+- Data migration and database systems
+- Financial technology and investment platforms
+- Technology consulting and solution design
+
 ## Featured Projects
+
 
 ### Cloud-Based PDF Processing Platform
 
@@ -111,6 +172,26 @@ An AWS Academy capstone focused on designing and deploying a secure, resilient a
 - Infrastructure monitoring through CloudWatch
 
 ---
+### Mood Messenger
+
+[![Repository](https://img.shields.io/badge/Repository-edbertswd%2Fopenxai-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/edbertswd/openxai)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+An AI-powered social messaging application designed to make digital communication more personalised and mood-aware.
+
+**Highlights**
+
+- Co-designed and pitched the application during OpenxAI Hack Node Australia
+- Used real-time emotion detection to support mood-aware interactions
+- Explored AI-assisted message suggestions and emotion-responsive user experiences
+- Incorporated social features and a gamified virtual economy
+- Contributed to a collaborative public repository spanning mobile, backend and database development
+
+---
 
 ### Personal Investment Portfolio Tracker
 
@@ -158,59 +239,9 @@ An online storefront developed to improve digital access for a small or medium-s
 - Participated in the **2024 EY–Enactus Mentorship Program**
 
 ### OpenxAI Hack Node Australia
-![Repository](https://img.shields.io/badge/Repository-Private_Project-6E7781?style=flat-square&logo=github&logoColor=white)
 
-- Co-designed and pitched **Mood Messenger**, an AI-powered social networking concept
+- Co-designed and pitched [**Mood Messenger**](https://github.com/edbertswd/openxai), an AI-powered social networking concept
 - Explored emotion detection and gamified virtual economies to reduce emotional miscommunication in online conversations
-
-## Certifications
-
-![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-
-- AWS Certified Cloud Practitioner — July 2026
-- AWS Academy Graduate — Cloud Foundations
-- AWS Academy Graduate — Cloud Architecting
-
-## Technical Skills
-
-### Languages and Frameworks
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-### Cloud and Databases
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
-
-### Tools and Delivery
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Agile](https://img.shields.io/badge/Delivery-Agile_%26_Scrum-2496ED?style=flat-square)
-
-## Current Interests
-
-- Cloud and platform engineering
-- Backend software development
-- Secure web applications
-- Data migration and database systems
-- Financial technology and investment platforms
-- Technology consulting and solution design
 
 ---
 
