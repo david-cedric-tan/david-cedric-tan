@@ -93,20 +93,32 @@ I have experience across **software engineering, data transformation, cloud tech
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-An event-driven AWS application that compares **fixed-size** and **paragraph-aware** PDF chunking strategies for document retrieval.
+Designed and deployed an **event-driven document processing platform on AWS** that enables users to upload PDF documents and compare fixed-size and paragraph-aware chunking strategies for document retrieval. The system uses asynchronous background workers to process uploaded documents and store results for side-by-side analysis. :contentReference[oaicite:0]{index=0}
 
-**Highlights**
+**Architecture**
 
-- Built a Flask web application for PDF upload, processing and side-by-side result comparison
-- Stored uploaded files in Amazon S3 and processing results in Amazon RDS for PostgreSQL
-- Used Amazon SNS and separate Amazon SQS queues to decouple two independent processing pipelines
-- Deployed application services using EC2, an Application Load Balancer and an Auto Scaling Group
-- Implemented TF-IDF retrieval, chunk statistics and processing-time comparisons
-- Applied private subnet architecture, Security Groups, IAM roles, blocked public S3 access and isolated RDS access
-- Used CloudWatch to monitor infrastructure and CPU utilisation
+- **Web Tier:** Flask application hosted on Amazon EC2 behind an Application Load Balancer (ALB) and managed by an Auto Scaling Group (ASG). :contentReference[oaicite:1]{index=1}
+- **Processing Tier:** Independent worker service consumes Amazon SQS messages to process uploaded PDFs asynchronously using two chunking strategies. :contentReference[oaicite:2]{index=2}
+- **Storage Tier:** Amazon S3 stores uploaded PDF documents while Amazon RDS (PostgreSQL) stores metadata, processing status and chunking results. :contentReference[oaicite:3]{index=3}
+- **Event-Driven Pipeline:** Amazon SNS distributes upload events to dedicated Amazon SQS queues, decoupling the web application from background processing. :contentReference[oaicite:4]{index=4}
+- **Networking & Security:** Custom VPC with public/private subnets, IAM roles, Security Groups, NAT Gateway and Bastion Host for secure administration. :contentReference[oaicite:5]{index=5}
 
-**Architecture:** `Flask → S3 → SNS → SQS → Worker Services → PostgreSQL`
+**AWS Services Used**
 
+![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![Application Load Balancer](https://img.shields.io/badge/Application_Load_Balancer-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Auto Scaling](https://img.shields.io/badge/Auto_Scaling-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![Amazon SNS](https://img.shields.io/badge/Amazon_SNS-FF4F8B?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon SQS](https://img.shields.io/badge/Amazon_SQS-FF4F8B?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon VPC](https://img.shields.io/badge/Amazon_VPC-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS_IAM-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Security Groups](https://img.shields.io/badge/Security_Groups-DD344C?style=flat-square&logo=amazonwebservices&logoColor=white)
+![NAT Gateway](https://img.shields.io/badge/NAT_Gateway-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Internet Gateway](https://img.shields.io/badge/Internet_Gateway-8C4FFF?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Bastion Host](https://img.shields.io/badge/Bastion_Host-6C757D?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Amazon CloudWatch](https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
 ---
 
 ### Secure Web Chat Application
@@ -152,25 +164,6 @@ A client-based software engineering capstone project for a production-scale ment
 - Created Postman collections, coverage reports and technical demonstrations for the client
 
 ---
-
-### AWS Academy Cloud Architecting Capstone
-
-[![Repository](https://img.shields.io/badge/Repository-AWS_Academy_Capstone_Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan/AWS_Academy_Capstone_Project)
-![AWS Academy](https://img.shields.io/badge/AWS_Academy-Cloud_Architecting-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
-
-An AWS Academy capstone focused on designing and deploying a secure, resilient and scalable cloud architecture.
-
-**Focus Areas**
-
-- VPC and subnet design
-- EC2-based application hosting
-- Application Load Balancing and Auto Scaling
-- RDS database deployment
-- IAM and Security Group configuration
-- Infrastructure monitoring through CloudWatch
-
----
 ### Mood Messenger
 
 [![Repository](https://img.shields.io/badge/Repository-edbertswd%2Fopenxai-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/edbertswd/openxai)
@@ -191,6 +184,25 @@ An AI-powered social messaging application designed to make digital communicatio
 - Contributed to a collaborative public repository spanning mobile, backend and database development
 
 ---
+### AWS Academy Cloud Architecting Capstone
+
+[![Repository](https://img.shields.io/badge/Repository-AWS_Academy_Capstone_Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan/AWS_Academy_Capstone_Project)
+![AWS Academy](https://img.shields.io/badge/AWS_Academy-Cloud_Architecting-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Development-F7B93E?style=flat-square)
+
+An AWS Academy capstone focused on designing and deploying a secure, resilient and scalable cloud architecture.
+
+**Focus Areas**
+
+- VPC and subnet design
+- EC2-based application hosting
+- Application Load Balancing and Auto Scaling
+- RDS database deployment
+- IAM and Security Group configuration
+- Infrastructure monitoring through CloudWatch
+
+---
 
 ### Personal Investment Portfolio Tracker
 
@@ -207,6 +219,7 @@ A personal finance application for tracking investments, stock data, dividends, 
 [![Repository](https://img.shields.io/badge/Repository-OlivanWebStore-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan/OlivanWebStore)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![E-commerce](https://img.shields.io/badge/Project-E--commerce_Platform-7B61FF?style=flat-square&logo=shopify&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Development-F7B93E?style=flat-square)
 
 An online storefront developed to improve digital access for a small or medium-sized enterprise.
 
