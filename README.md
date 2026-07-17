@@ -93,15 +93,15 @@ I have experience across **software engineering, data transformation, cloud tech
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-Designed and deployed an **event-driven document processing platform on AWS** that enables users to upload PDF documents and compare fixed-size and paragraph-aware chunking strategies for document retrieval. The system uses asynchronous background workers to process uploaded documents and store results for side-by-side analysis. :contentReference[oaicite:0]{index=0}
+Designed and deployed an **event-driven document processing platform on AWS** that enables users to upload PDF documents and compare fixed-size and paragraph-aware chunking strategies for document retrieval. The system uses asynchronous background workers to process uploaded documents and store results for side-by-side analysis. 
 
 **Architecture**
 
-- **Web Tier:** Flask application hosted on Amazon EC2 behind an Application Load Balancer (ALB) and managed by an Auto Scaling Group (ASG). :contentReference[oaicite:1]{index=1}
-- **Processing Tier:** Independent worker service consumes Amazon SQS messages to process uploaded PDFs asynchronously using two chunking strategies. :contentReference[oaicite:2]{index=2}
-- **Storage Tier:** Amazon S3 stores uploaded PDF documents while Amazon RDS (PostgreSQL) stores metadata, processing status and chunking results. :contentReference[oaicite:3]{index=3}
-- **Event-Driven Pipeline:** Amazon SNS distributes upload events to dedicated Amazon SQS queues, decoupling the web application from background processing. :contentReference[oaicite:4]{index=4}
-- **Networking & Security:** Custom VPC with public/private subnets, IAM roles, Security Groups, NAT Gateway and Bastion Host for secure administration. :contentReference[oaicite:5]{index=5}
+- **Web Tier:** Flask application hosted on Amazon EC2 behind an Application Load Balancer (ALB) and managed by an Auto Scaling Group (ASG). 
+- **Processing Tier:** Independent worker service consumes Amazon SQS messages to process uploaded PDFs asynchronously using two chunking strategies. 
+- **Storage Tier:** Amazon S3 stores uploaded PDF documents while Amazon RDS (PostgreSQL) stores metadata, processing status and chunking results. 
+- **Event-Driven Pipeline:** Amazon SNS distributes upload events to dedicated Amazon SQS queues, decoupling the web application from background processing. 
+- **Networking & Security:** Custom VPC with public/private subnets, IAM roles, Security Groups, NAT Gateway and Bastion Host for secure administration.
 
 **AWS Services Used**
 
