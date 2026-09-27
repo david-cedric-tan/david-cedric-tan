@@ -85,7 +85,8 @@ I have experience across **software engineering, data transformation, cloud tech
 ## Featured Projects
 
 ### Career Tracker (LIVE)
-Check out my new Project! It's Live!!! 
+Check out my new Project! It's Live!!! <br>
+
 <a href="https://careertracker.app">
   <img src="https://github.com/user-attachments/assets/7d11bfd4-47a4-44a1-b66c-82a3c8b97193" alt="Career Tracker" width="120">
 </a>
