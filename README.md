@@ -1,6 +1,6 @@
 # Hi, I'm David Cedric Tan
 
-**Software Development & Finance Student | Cloud, Backend and Data Projects** |[**careertracker.app**](https://careertracker.app)
+**Software Development & Finance Student | Cloud, Backend and Data Projects** | [**careertracker.app**](https://careertracker.app)
 
 [![GitHub](https://img.shields.io/badge/GitHub-david--cedric--tan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/david-cedric-tan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Cedric_Tan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidcedricctan/)
