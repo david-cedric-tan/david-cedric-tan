@@ -85,13 +85,17 @@ I have experience across **software engineering, data transformation, cloud tech
 ## Featured Projects
 
 ### Career Tracker (LIVE)
+![Private Project](https://img.shields.io/badge/Repository-Private_Project-6E7781?style=flat-square&logo=github&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+<br>
+<br>
 Check out my new Project! It's Live!!! <br>
-
 <a href="https://careertracker.app">
-  <img src="https://github.com/user-attachments/assets/7d11bfd4-47a4-44a1-b66c-82a3c8b97193" alt="Career Tracker" width="120">
+  <img src="https://github.com/user-attachments/assets/7d11bfd4-47a4-44a1-b66c-82a3c8b97193" alt="Career Tracker" width="120"> <br>
+  [**mycareertracker.app**](https://mycareertracker.app)
 </a>
 
-[**mycareertracker.app**](https://mycareertracker.app)
 
 ### Cloud-Based PDF Processing Platform
 
