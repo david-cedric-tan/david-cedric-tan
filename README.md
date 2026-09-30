@@ -91,7 +91,7 @@ Check out my new Project! It's Live!!! <br>
   <img src="https://github.com/user-attachments/assets/7d11bfd4-47a4-44a1-b66c-82a3c8b97193" alt="Career Tracker" width="120">
 </a>
 
-[**careertracker.app**](https://careertracker.app)
+[**mycareertracker.app**](https://mycareertracker.app)
 
 ### Cloud-Based PDF Processing Platform
 
